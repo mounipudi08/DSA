@@ -1,0 +1,200 @@
+#include<iostream> --> allow to take input and output
+#include<math.h>
+#include<string>
+
+int main() {
+std::cout <<  "Hey Striver!" << "\n";
+return 0;
+}
+
+int main() {
+std::cout <<  "Hey Striver!" << std::endl << "Hey Raj" ::std::endl ;
+return 0;
+}
+
+#include<iostream>
+using namespace std;
+int main() {
+cout <<  "Hey Striver!" << endl << "Hey Raj" << endl ;
+return 0;
+}
+
+#include<iostream>
+using namespace std;
+int main() {
+int x,y;
+cin >> x >> y;
+cout << "Value of x : " << x << "and y" << y; 
+return 0;
+}
+
+to include all libraries --> we use this #include<bits/stdc++.h>
+
+ #include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+int x = 10;
+long x = 15;
+long long x = 1500000000;
+
+float x = 5.6;
+double y = 5;
+cout << "Value of  "<< y
+return 0;
+}
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+string s;
+cin >> s;
+cout << s;
+return 0;
+} 
+hey striver
+O/p: hey
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+string s1;
+string s2;
+cin >> s1 >> s2;
+cout << s1 " " s2 ;
+return 0;
+
+cout: hey Striver
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+string str;
+getline(cin,str)
+cout << str
+return 0;
+}
+
+cin and cout : Hey striver i am cool
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+string ch = "g"
+cout << ch;
+return 0;
+}
+
+int --  -109 to 109 
+long -- -1012 to 1012
+long long -- 1018 to 1018
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+int age;
+cin >> age;
+if(age >= 18) {
+cout << "adult"
+}
+else
+{
+cout << "not adult"
+}
+
+/*  */
+
+int main() 
+{
+int marks;
+if(marks < 25 ) {
+cout << "F";
+}
+if(marks >= 25 && marks <= 44 ) {
+cout << "E";
+}
+if(marks >= 25 && marks <= 44 ) {
+cout << "D";
+}
+if(marks >= 25 && marks <= 44 ) {
+cout << "C";
+}
+if(marks >= 25 && marks <= 44 ) {
+cout << "B";
+}
+if(marks >= 25 && marks <= 44 ) {
+cout << "A";
+}
+return 0;
+}
+
+if we use all if conditions --> we have to check all conditions
+it takes lot of time
+so u have to use else if 
+
+int main() 
+{
+int marks;
+if(marks < 25 ) {
+cout << "F";
+}
+else if(marks >= 25 && marks <= 44 ) {
+cout << "E";
+}
+else if(marks >= 45 && marks <= 49 ) {
+cout << "D";
+}
+else if(marks >= 50 && marks <= 59 ) {
+cout << "C";
+}
+else if(marks >= 60 && marks <= 79) {
+cout << "B";
+}
+else{
+cout << "A";
+}
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
